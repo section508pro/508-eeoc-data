@@ -1,0 +1,91 @@
+[
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body.path-node > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a tabindex=\"1\" href=\"#main-content\" class=\"visually-hidden focusable\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-195-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,SECTION,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 48,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 48
+            },
+            "snippet": "<button tabindex=\"2\" class=\"usa-accordion__button usa-banner__button\" aria-expanded=\"false\" aria-controls=\"gov-banner-default\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-1-A",
+            "path": "1,HTML,1,BODY,1,DIV,2,HEADER,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.usa-navbar > div.region > div#logo > a",
+            "boundingRect": {
+              "top": 54,
+              "bottom": 90,
+              "left": 16,
+              "right": 281,
+              "width": 265,
+              "height": 37
+            },
+            "snippet": "<a href=\"/\" accesskey=\"1\" aria-label=\"U.S. Equal Employment Opportunity Commission Home\" tabindex=\"3\">",
+            "nodeLabel": "U.S. Equal Employment Opportunity Commission",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

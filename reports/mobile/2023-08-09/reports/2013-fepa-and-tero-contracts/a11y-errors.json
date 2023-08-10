@@ -1,0 +1,1006 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-127-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,1,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=185553,eeccn130006.cfm,190|",
+            "boundingRect": {
+              "top": 1048,
+              "bottom": 1070,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=185553,eeccn130006.cfm,190|\" href=\"/contract-eeccn130006-south-dakota-dept-labor\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"795a9661-74a8-4a31-8dba-90ebcabe93bd\">",
+            "nodeLabel": "EECCN130006",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=185553,eeccn130006.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-128-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,1,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=185553,eeccn130006.cfm,190|",
+                  "boundingRect": {
+                    "top": 1048,
+                    "bottom": 1070,
+                    "left": 138,
+                    "right": 342,
+                    "width": 204,
+                    "height": 22
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=185553,eeccn130006.cfm,190|\" href=\"/contract-eeccn130006-south-dakota-dept-labor\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"795a9661-74a8-4a31-8dba-90ebcabe93bd\">",
+                  "nodeLabel": "South Dakota Dept Of Labor"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-129-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,2,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=186403,eeccn130007.cfm,190|",
+            "boundingRect": {
+              "top": 1095,
+              "bottom": 1117,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a style=\"\" id=\"CP___PAGEID=186403,eeccn130007.cfm,190|\" href=\"/contract-eeccn130007-michigan-department-civil-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"da48eb41-a6e4-45bd-a894-7c7a7abfcf50\">",
+            "nodeLabel": "EECCN130007",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=186403,eeccn130007.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-130-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,2,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=186403,eeccn130007.cfm,190|",
+                  "boundingRect": {
+                    "top": 1082,
+                    "bottom": 1130,
+                    "left": 138,
+                    "right": 377,
+                    "width": 239,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=186403,eeccn130007.cfm,190|\" href=\"/contract-eeccn130007-michigan-department-civil-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"da48eb41-a6e4-45bd-a894-7c7a7abfcf50\">",
+                  "nodeLabel": "The Michigan Department of Civil Rights"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-131-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,3,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=184427,eeccn130008.cfm,190|",
+            "boundingRect": {
+              "top": 1155,
+              "bottom": 1177,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=184427,eeccn130008.cfm,190|\" href=\"/contract-eeccn130008-city-jacksonville\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"3947fa66-b032-455b-9d78-d8f03e17f41a\">",
+            "nodeLabel": "EECCN130008",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=184427,eeccn130008.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-132-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,3,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=184427,eeccn130008.cfm,190|",
+                  "boundingRect": {
+                    "top": 1142,
+                    "bottom": 1190,
+                    "left": 138,
+                    "right": 381,
+                    "width": 243,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=184427,eeccn130008.cfm,190|\" href=\"/contract-eeccn130008-city-jacksonville\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"3947fa66-b032-455b-9d78-d8f03e17f41a\">",
+                  "nodeLabel": "City of Jacksonville (Jacksonville, Florida)"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-133-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,4,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=186418,eeccn130009.cfm,190|",
+            "boundingRect": {
+              "top": 1227,
+              "bottom": 1249,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=186418,eeccn130009.cfm,190|\" href=\"/contract-eeccn130009-state-connecticut-commission-human-rights-and-opport…\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"28db384f-c572-4b79-ab21-48bfe810ca7e\">",
+            "nodeLabel": "EECCN130009",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=186418,eeccn130009.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-134-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,4,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=186418,eeccn130009.cfm,190|",
+                  "boundingRect": {
+                    "top": 1202,
+                    "bottom": 1275,
+                    "left": 138,
+                    "right": 378,
+                    "width": 240,
+                    "height": 73
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=186418,eeccn130009.cfm,190|\" href=\"/contract-eeccn130009-state-connecticut-commission-human-rights-and-opport…\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"28db384f-c572-4b79-ab21-48bfe810ca7e\">",
+                  "nodeLabel": "State of Connecticut Commission on Human Rights and Opportunities"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-135-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,5,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=186432,eeccn130010.cfm,190|",
+            "boundingRect": {
+              "top": 1287,
+              "bottom": 1309,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=186432,eeccn130010.cfm,190|\" href=\"/contract-eeccn130010-maine-human-rights-commission\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"3934036c-09fc-4823-96f9-600abd5a34af\">",
+            "nodeLabel": "EECCN130010",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=186432,eeccn130010.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-136-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,5,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=186432,eeccn130010.cfm,190|",
+                  "boundingRect": {
+                    "top": 1287,
+                    "bottom": 1309,
+                    "left": 138,
+                    "right": 375,
+                    "width": 237,
+                    "height": 22
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=186432,eeccn130010.cfm,190|\" href=\"/contract-eeccn130010-maine-human-rights-commission\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"3934036c-09fc-4823-96f9-600abd5a34af\">",
+                  "nodeLabel": "Maine Human Rights Commission"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-137-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,6,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=186461,eeccn130011.cfm,190|",
+            "boundingRect": {
+              "top": 1334,
+              "bottom": 1356,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=186461,eeccn130011.cfm,190|\" href=\"/contract-eeccn130011-new-hampshire-commission-human-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"93be5d87-3deb-4bc4-bba8-4fb47a4f5663\">",
+            "nodeLabel": "EECCN130011",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=186461,eeccn130011.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-138-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,6,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=186461,eeccn130011.cfm,190|",
+                  "boundingRect": {
+                    "top": 1322,
+                    "bottom": 1369,
+                    "left": 138,
+                    "right": 373,
+                    "width": 235,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=186461,eeccn130011.cfm,190|\" href=\"/contract-eeccn130011-new-hampshire-commission-human-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"93be5d87-3deb-4bc4-bba8-4fb47a4f5663\">",
+                  "nodeLabel": "The New Hampshire Commission for Human Rights"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-139-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,7,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=187908,eeccn130012.cfm,190|",
+            "boundingRect": {
+              "top": 1394,
+              "bottom": 1416,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=187908,eeccn130012.cfm,190|\" href=\"/contract-eeccn130012-rhode-island-commission-human-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"fa724576-9a80-476c-a2d5-471e2d050ee3\">",
+            "nodeLabel": "EECCN130012",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=187908,eeccn130012.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-140-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,7,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=187908,eeccn130012.cfm,190|",
+                  "boundingRect": {
+                    "top": 1382,
+                    "bottom": 1429,
+                    "left": 138,
+                    "right": 345,
+                    "width": 207,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=187908,eeccn130012.cfm,190|\" href=\"/contract-eeccn130012-rhode-island-commission-human-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"fa724576-9a80-476c-a2d5-471e2d050ee3\">",
+                  "nodeLabel": "Rhode Island Commission for Human Rights"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-141-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,8,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=188743,eeccn130014.cfm,190|",
+            "boundingRect": {
+              "top": 1454,
+              "bottom": 1476,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=188743,eeccn130014.cfm,190|\" href=\"/contract-eeccn130014-oregon-bureau-labor-and-industries\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"752f765a-d42a-4b09-bc0e-3899524346f4\">",
+            "nodeLabel": "EECCN130014",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=188743,eeccn130014.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-142-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,8,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=188743,eeccn130014.cfm,190|",
+                  "boundingRect": {
+                    "top": 1441,
+                    "bottom": 1489,
+                    "left": 138,
+                    "right": 339,
+                    "width": 201,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=188743,eeccn130014.cfm,190|\" href=\"/contract-eeccn130014-oregon-bureau-labor-and-industries\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"752f765a-d42a-4b09-bc0e-3899524346f4\">",
+                  "nodeLabel": "Oregon Bureau of Labor and Industries"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-143-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,9,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=186481,eeccn130017.cfm,190|",
+            "boundingRect": {
+              "top": 1514,
+              "bottom": 1536,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=186481,eeccn130017.cfm,190|\" href=\"/contract-eeccn130017-minneapolis-department-civil-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"e1a0e266-2f55-4e8e-8c7e-194015ab7105\">",
+            "nodeLabel": "EECCN130017",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=186481,eeccn130017.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-144-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,9,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=186481,eeccn130017.cfm,190|",
+                  "boundingRect": {
+                    "top": 1501,
+                    "bottom": 1549,
+                    "left": 138,
+                    "right": 369,
+                    "width": 231,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=186481,eeccn130017.cfm,190|\" href=\"/contract-eeccn130017-minneapolis-department-civil-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"e1a0e266-2f55-4e8e-8c7e-194015ab7105\">",
+                  "nodeLabel": "Minneapolis Department of Civil Rights"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-145-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,10,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=185580,eeccn130019.cfm,190|",
+            "boundingRect": {
+              "top": 1574,
+              "bottom": 1596,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=185580,eeccn130019.cfm,190|\" href=\"/contract-eeccn130019-city-austin-equal-employment-fair-housing-office\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"fbd815b0-174a-4b48-8f3e-49b7993f367a\">",
+            "nodeLabel": "EECCN130019",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=185580,eeccn130019.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-146-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,10,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=185580,eeccn130019.cfm,190|",
+                  "boundingRect": {
+                    "top": 1561,
+                    "bottom": 1608,
+                    "left": 138,
+                    "right": 382,
+                    "width": 244,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=185580,eeccn130019.cfm,190|\" href=\"/contract-eeccn130019-city-austin-equal-employment-fair-housing-office\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"fbd815b0-174a-4b48-8f3e-49b7993f367a\">",
+                  "nodeLabel": "City Of Austin Equal Employment Fair Housing Office (Austin, Texas)"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-147-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,11,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=188757,eeccn130020.cfm,190|",
+            "boundingRect": {
+              "top": 1634,
+              "bottom": 1656,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=188757,eeccn130020.cfm,190|\" href=\"/contract-eeccn130020-california-department-fair-employment-and-housing\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"ac7d4da4-02c2-4c31-b2a5-98c272ad75f4\">",
+            "nodeLabel": "EECCN130020",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=188757,eeccn130020.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-148-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,11,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=188757,eeccn130020.cfm,190|",
+                  "boundingRect": {
+                    "top": 1621,
+                    "bottom": 1668,
+                    "left": 138,
+                    "right": 346,
+                    "width": 208,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=188757,eeccn130020.cfm,190|\" href=\"/contract-eeccn130020-california-department-fair-employment-and-housing\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"ac7d4da4-02c2-4c31-b2a5-98c272ad75f4\">",
+                  "nodeLabel": "California Department of Fair Employment and Housing"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-149-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,12,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=187913,eeccn130021.cfm,190|",
+            "boundingRect": {
+              "top": 1681,
+              "bottom": 1703,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=187913,eeccn130021.cfm,190|\" href=\"/contract-eeccn130021-kansas-human-rights-commission\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"79a172af-8e38-4e39-9fd9-dac6cc8e4769\">",
+            "nodeLabel": "EECCN130021",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=187913,eeccn130021.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-150-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,12,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=187913,eeccn130021.cfm,190|",
+                  "boundingRect": {
+                    "top": 1681,
+                    "bottom": 1703,
+                    "left": 138,
+                    "right": 381,
+                    "width": 243,
+                    "height": 22
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=187913,eeccn130021.cfm,190|\" href=\"/contract-eeccn130021-kansas-human-rights-commission\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"79a172af-8e38-4e39-9fd9-dac6cc8e4769\">",
+                  "nodeLabel": "Kansas Human Rights Commission"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-151-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,13,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=185600,eeccn130023.cfm,190|",
+            "boundingRect": {
+              "top": 1728,
+              "bottom": 1750,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a style=\"\" id=\"CP___PAGEID=185600,eeccn130023.cfm,190|\" href=\"/contract-eeccn130023-north-carolina-office-administrative-hearings\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"b9b4ff1c-13b0-4c39-a6bc-5b54e6579c78\">",
+            "nodeLabel": "EECCN130023",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=185600,eeccn130023.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-152-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,13,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=185600,eeccn130023.cfm,190|",
+                  "boundingRect": {
+                    "top": 1715,
+                    "bottom": 1763,
+                    "left": 138,
+                    "right": 311,
+                    "width": 173,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=185600,eeccn130023.cfm,190|\" href=\"/contract-eeccn130023-north-carolina-office-administrative-hearings\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"b9b4ff1c-13b0-4c39-a6bc-5b54e6579c78\">",
+                  "nodeLabel": "North Carolina Office of Administrative Hearings"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-153-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,14,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=187900,eeccn130024.cfm,190|",
+            "boundingRect": {
+              "top": 1775,
+              "bottom": 1797,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=187900,eeccn130024.cfm,190|\" href=\"/contract-eeccn130024-davenport-civil-rights-commission\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"017697c8-3ede-4bd2-ab96-6a24e12d051d\">",
+            "nodeLabel": "EECCN130024",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=187900,eeccn130024.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-154-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,14,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=187900,eeccn130024.cfm,190|",
+                  "boundingRect": {
+                    "top": 1775,
+                    "bottom": 1797,
+                    "left": 138,
+                    "right": 386,
+                    "width": 248,
+                    "height": 22
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=187900,eeccn130024.cfm,190|\" href=\"/contract-eeccn130024-davenport-civil-rights-commission\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"017697c8-3ede-4bd2-ab96-6a24e12d051d\">",
+                  "nodeLabel": "Davenport Civil Rights Commission"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-155-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,15,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=188804,eeccn130025.cfm,190|",
+            "boundingRect": {
+              "top": 1822,
+              "bottom": 1844,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=188804,eeccn130025.cfm,190|\" href=\"/contract-eeccn130025-howard-county-md-office-human-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"30fc1d4d-0c70-404c-b45a-6af35adfe50f\">",
+            "nodeLabel": "EECCN130025",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=188804,eeccn130025.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-156-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,15,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=188804,eeccn130025.cfm,190|",
+                  "boundingRect": {
+                    "top": 1809,
+                    "bottom": 1857,
+                    "left": 138,
+                    "right": 340,
+                    "width": 202,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=188804,eeccn130025.cfm,190|\" href=\"/contract-eeccn130025-howard-county-md-office-human-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"30fc1d4d-0c70-404c-b45a-6af35adfe50f\">",
+                  "nodeLabel": "Howard County MD Office of Human Rights"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-157-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,16,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=185624,eeccn130026.cfm,190|",
+            "boundingRect": {
+              "top": 1882,
+              "bottom": 1904,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=185624,eeccn130026.cfm,190|\" href=\"/contract-eeccn130026-new-jersey-division-civil-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"1fdf5f05-70f0-4c8b-9107-2ffe81d87601\">",
+            "nodeLabel": "EECCN130026",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=185624,eeccn130026.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-158-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,16,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=185624,eeccn130026.cfm,190|",
+                  "boundingRect": {
+                    "top": 1869,
+                    "bottom": 1917,
+                    "left": 138,
+                    "right": 366,
+                    "width": 228,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=185624,eeccn130026.cfm,190|\" href=\"/contract-eeccn130026-new-jersey-division-civil-rights\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"1fdf5f05-70f0-4c8b-9107-2ffe81d87601\">",
+                  "nodeLabel": "The New Jersey Division on Civil Rights"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-159-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,17,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=185635,eeccn130027.cfm,190|",
+            "boundingRect": {
+              "top": 1955,
+              "bottom": 1977,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=185635,eeccn130027.cfm,190|\" href=\"/contract-eeccn130027-montgomery-county-government-through-its-office-huma…\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"aaba9a59-c67d-45d4-86ff-3d3ecba4d7c7\">",
+            "nodeLabel": "EECCN130027",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=185635,eeccn130027.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-160-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,17,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=185635,eeccn130027.cfm,190|",
+                  "boundingRect": {
+                    "top": 1929,
+                    "bottom": 2002,
+                    "left": 138,
+                    "right": 384,
+                    "width": 246,
+                    "height": 73
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=185635,eeccn130027.cfm,190|\" href=\"/contract-eeccn130027-montgomery-county-government-through-its-office-huma…\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"aaba9a59-c67d-45d4-86ff-3d3ecba4d7c7\">",
+                  "nodeLabel": "Montgomery County Government Office of Human Rights (Rockville, Maryland)\n"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-161-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,18,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=187917,eeccn130028.cfm,190|",
+            "boundingRect": {
+              "top": 2027,
+              "bottom": 2049,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=187917,eeccn130028.cfm,190|\" href=\"/contract-eeccn130028-philadelphia-commission-human-relations\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"f272772c-767a-4e27-a54f-17d8422f9fe8\">",
+            "nodeLabel": "EECCN130028",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=187917,eeccn130028.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-162-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,18,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=187917,eeccn130028.cfm,190|",
+                  "boundingRect": {
+                    "top": 2014,
+                    "bottom": 2062,
+                    "left": 138,
+                    "right": 339,
+                    "width": 201,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=187917,eeccn130028.cfm,190|\" href=\"/contract-eeccn130028-philadelphia-commission-human-relations\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"f272772c-767a-4e27-a54f-17d8422f9fe8\">",
+                  "nodeLabel": "Philadelphia Commission on Human Relations"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-163-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,19,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=187893,eeccn130029.cfm,190|",
+            "boundingRect": {
+              "top": 2074,
+              "bottom": 2096,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=187893,eeccn130029.cfm,190|\" href=\"/contract-eeccn130029-colorado-civil-rights-division\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"fc0111fa-4105-408d-9ae6-1df303636115\">",
+            "nodeLabel": "EECCN130029",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=187893,eeccn130029.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-164-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,19,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=187893,eeccn130029.cfm,190|",
+                  "boundingRect": {
+                    "top": 2074,
+                    "bottom": 2096,
+                    "left": 138,
+                    "right": 344,
+                    "width": 206,
+                    "height": 22
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=187893,eeccn130029.cfm,190|\" href=\"/contract-eeccn130029-colorado-civil-rights-division\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"fc0111fa-4105-408d-9ae6-1df303636115\">",
+                  "nodeLabel": "Colorado Civil Rights Division"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-165-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,20,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=187904,eeccn130031.cfm,190|",
+            "boundingRect": {
+              "top": 2121,
+              "bottom": 2143,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=187904,eeccn130031.cfm,190|\" href=\"/contract-eeccn130031-south-bend-human-rights-commission\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"881a288a-8311-4ac7-8890-41e88f01f714\">",
+            "nodeLabel": "EECCN130031",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=187904,eeccn130031.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-166-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,20,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=187904,eeccn130031.cfm,190|",
+                  "boundingRect": {
+                    "top": 2109,
+                    "bottom": 2156,
+                    "left": 138,
+                    "right": 329,
+                    "width": 191,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=187904,eeccn130031.cfm,190|\" href=\"/contract-eeccn130031-south-bend-human-rights-commission\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"881a288a-8311-4ac7-8890-41e88f01f714\">",
+                  "nodeLabel": "South Bend Human Rights Commission"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-167-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,21,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=188818,eeccn130035.cfm,190|",
+            "boundingRect": {
+              "top": 2181,
+              "bottom": 2203,
+              "left": 25,
+              "right": 121,
+              "width": 96,
+              "height": 22
+            },
+            "snippet": "<a id=\"CP___PAGEID=188818,eeccn130035.cfm,190|\" href=\"/contract-eeccn130035-lexington-fayette-urban-county-human-rights-commissi…\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"3486b3ee-9819-4558-a8cb-5a426fd76076\">",
+            "nodeLabel": "EECCN130035",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=188818,eeccn130035.cfm,190|"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-168-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,21,TR,1,TD,0,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=188818,eeccn130035.cfm,190|",
+                  "boundingRect": {
+                    "top": 2168,
+                    "bottom": 2216,
+                    "left": 138,
+                    "right": 375,
+                    "width": 237,
+                    "height": 47
+                  },
+                  "snippet": "<a id=\"CP___PAGEID=188818,eeccn130035.cfm,190|\" href=\"/contract-eeccn130035-lexington-fayette-urban-county-human-rights-commissi…\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"3486b3ee-9819-4558-a8cb-5a426fd76076\">",
+                  "nodeLabel": "Lexington-Fayette Urban County Human Rights Commission"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 21
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body.path-node > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a tabindex=\"1\" href=\"#main-content\" class=\"visually-hidden focusable\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-228-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,SECTION,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 49,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 49
+            },
+            "snippet": "<button tabindex=\"2\" class=\"usa-accordion__button usa-banner__button\" aria-expanded=\"false\" aria-controls=\"gov-banner-default\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-1-A",
+            "path": "1,HTML,1,BODY,1,DIV,2,HEADER,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.usa-navbar > div.region > div#logo > a",
+            "boundingRect": {
+              "top": 54,
+              "bottom": 91,
+              "left": 16,
+              "right": 284,
+              "width": 268,
+              "height": 37
+            },
+            "snippet": "<a href=\"/\" accesskey=\"1\" aria-label=\"U.S. Equal Employment Opportunity Commission Home\" tabindex=\"3\">",
+            "nodeLabel": "U.S. Equal Employment Opportunity Commission",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

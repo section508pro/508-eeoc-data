@@ -1,0 +1,147 @@
+[
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-477-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,104,DIV,0,P,0,A",
+            "selector": "div > div#ftn103 > p > a#_ftn103",
+            "boundingRect": {
+              "top": 73991,
+              "bottom": 73991,
+              "left": 16,
+              "right": 16,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"#_ftnref103\" name=\"_ftn103\" id=\"_ftn103\">",
+            "nodeLabel": "div > div#ftn103 > p > a#_ftn103",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has an empty title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body.path-node > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a tabindex=\"1\" href=\"#main-content\" class=\"visually-hidden focusable\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-570-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,SECTION,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 49,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 49
+            },
+            "snippet": "<button tabindex=\"2\" class=\"usa-accordion__button usa-banner__button\" aria-expanded=\"false\" aria-controls=\"gov-banner-default\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-1-A",
+            "path": "1,HTML,1,BODY,1,DIV,2,HEADER,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.usa-navbar > div.region > div#logo > a",
+            "boundingRect": {
+              "top": 54,
+              "bottom": 91,
+              "left": 16,
+              "right": 284,
+              "width": 268,
+              "height": 37
+            },
+            "snippet": "<a href=\"/\" accesskey=\"1\" aria-label=\"U.S. Equal Employment Opportunity Commission Home\" tabindex=\"3\">",
+            "nodeLabel": "U.S. Equal Employment Opportunity Commission",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

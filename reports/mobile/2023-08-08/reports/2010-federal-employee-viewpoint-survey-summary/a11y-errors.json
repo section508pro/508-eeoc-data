@@ -1,0 +1,217 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-127-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,1,TR,1,TD,36,A",
+            "selector": "tbody > tr > td > a#CP___PAGEID=123898,2010viewpoint_telework.cfm,9",
+            "boundingRect": {
+              "top": 2799,
+              "bottom": 2877,
+              "left": 281,
+              "right": 387,
+              "width": 106,
+              "height": 78
+            },
+            "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/2010viewpoint_telework…\" href=\"/2010-federal-employee-viewpoint-survey-summary-telework\" style=\"\" id=\"CP___PAGEID=123898,2010viewpoint_telework.cfm,9\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"d6c8462d-32e2-4d5a-ba04-d211bb979810\">",
+            "nodeLabel": "Image",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=123898,2010viewpoint_telework.cfm,9"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-128-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,1,TR,1,TD,38,A",
+                  "selector": "tbody > tr > td > a#CP___PAGEID=123898,2010viewpoint_telework.cfm,9",
+                  "boundingRect": {
+                    "top": 2903,
+                    "bottom": 2980,
+                    "left": 281,
+                    "right": 387,
+                    "width": 106,
+                    "height": 77
+                  },
+                  "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/2010viewpoint_telework…\" href=\"/2010-federal-employee-viewpoint-survey-summary-telework\" style=\"\" id=\"CP___PAGEID=123898,2010viewpoint_telework.cfm,9\" data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"d6c8462d-32e2-4d5a-ba04-d211bb979810\">",
+                  "nodeLabel": "Image"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-191-H3",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,TABLE,0,TBODY,1,TR,0,TD,0,H3",
+            "selector": "tbody > tr > td > h3",
+            "boundingRect": {
+              "top": 1658,
+              "bottom": 1747,
+              "left": 25,
+              "right": 264,
+              "width": 239,
+              "height": 89
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Human Capital Assessment & Accountability Framework",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body.path-node > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a tabindex=\"1\" href=\"#main-content\" class=\"visually-hidden focusable\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-188-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,SECTION,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 48,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 48
+            },
+            "snippet": "<button tabindex=\"2\" class=\"usa-accordion__button usa-banner__button\" aria-expanded=\"false\" aria-controls=\"gov-banner-default\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-1-A",
+            "path": "1,HTML,1,BODY,1,DIV,2,HEADER,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.usa-navbar > div.region > div#logo > a",
+            "boundingRect": {
+              "top": 54,
+              "bottom": 90,
+              "left": 16,
+              "right": 281,
+              "width": 265,
+              "height": 37
+            },
+            "snippet": "<a href=\"/\" accesskey=\"1\" aria-label=\"U.S. Equal Employment Opportunity Commission Home\" tabindex=\"3\">",
+            "nodeLabel": "U.S. Equal Employment Opportunity Commission",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]
