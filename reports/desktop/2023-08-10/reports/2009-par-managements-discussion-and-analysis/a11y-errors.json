@@ -1,0 +1,410 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-129-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,59,P,0,A",
+            "selector": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9",
+            "boundingRect": {
+              "top": 9947,
+              "bottom": 9947,
+              "left": 511,
+              "right": 511,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+            "nodeLabel": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: CP___PAGEID=28762,charts.cfm,9"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-130-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,60,ARTICLE,0,DIV,0,A",
+                  "selector": "div.usa-prose > article.media > div > a#CP___PAGEID=28762,charts.cfm,9",
+                  "boundingRect": {
+                    "top": 9947,
+                    "bottom": 10376,
+                    "left": 195,
+                    "right": 827,
+                    "width": 632,
+                    "height": 429
+                  },
+                  "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+                  "nodeLabel": "Image"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-131-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,60,ARTICLE,1,A",
+                  "selector": "div.usa-prose > div.usa-prose > article.media > a#CP___PAGEID=28762,charts.cfm,9",
+                  "boundingRect": {
+                    "top": 10376,
+                    "bottom": 10376,
+                    "left": 195,
+                    "right": 195,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+                  "nodeLabel": "div.usa-prose > div.usa-prose > article.media > a#CP___PAGEID=28762,charts.cfm,9"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-132-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,66,P,0,A",
+                  "selector": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9",
+                  "boundingRect": {
+                    "top": 10934,
+                    "bottom": 10934,
+                    "left": 511,
+                    "right": 511,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+                  "nodeLabel": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-129-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,59,P,0,A",
+            "selector": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9",
+            "boundingRect": {
+              "top": 9947,
+              "bottom": 9947,
+              "left": 511,
+              "right": 511,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+            "nodeLabel": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-131-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,60,ARTICLE,1,A",
+            "selector": "div.usa-prose > div.usa-prose > article.media > a#CP___PAGEID=28762,charts.cfm,9",
+            "boundingRect": {
+              "top": 10376,
+              "bottom": 10376,
+              "left": 195,
+              "right": 195,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+            "nodeLabel": "div.usa-prose > div.usa-prose > article.media > a#CP___PAGEID=28762,charts.cfm,9",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-132-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,66,P,0,A",
+            "selector": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9",
+            "boundingRect": {
+              "top": 10934,
+              "bottom": 10934,
+              "left": 511,
+              "right": 511,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+            "nodeLabel": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-134-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,67,ARTICLE,1,A",
+            "selector": "div.usa-prose > div.usa-prose > article.media > a#CP___PAGEID=28762,charts.cfm,9",
+            "boundingRect": {
+              "top": 11347,
+              "bottom": 11347,
+              "left": 195,
+              "right": 195,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+            "nodeLabel": "div.usa-prose > div.usa-prose > article.media > a#CP___PAGEID=28762,charts.cfm,9",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-135-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,77,P,0,A",
+            "selector": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9",
+            "boundingRect": {
+              "top": 12130,
+              "bottom": 12130,
+              "left": 511,
+              "right": 511,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+            "nodeLabel": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-137-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,78,ARTICLE,1,A",
+            "selector": "div.usa-prose > div.usa-prose > article.media > a#CP___PAGEID=28762,charts.cfm,9",
+            "boundingRect": {
+              "top": 12555,
+              "bottom": 12555,
+              "left": 195,
+              "right": 195,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+            "nodeLabel": "div.usa-prose > div.usa-prose > article.media > a#CP___PAGEID=28762,charts.cfm,9",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-138-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,81,P,0,A",
+            "selector": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9",
+            "boundingRect": {
+              "top": 12665,
+              "bottom": 12665,
+              "left": 511,
+              "right": 511,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+            "nodeLabel": "div.usa-prose > div.usa-prose > p > a#CP___PAGEID=28762,charts.cfm,9",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-140-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,82,ARTICLE,1,A",
+            "selector": "div.usa-prose > div.usa-prose > article.media > a#CP___PAGEID=28762,charts.cfm,9",
+            "boundingRect": {
+              "top": 13128,
+              "bottom": 13128,
+              "left": 195,
+              "right": 195,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a onmouseover=\"return window.status='http://www.eeoc.gov/eeoc/plan/charts.cfm'\" href=\"https://www1.eeoc.gov/eeoc/plan/charts.cfm\" style=\"\" id=\"CP___PAGEID=28762,charts.cfm,9\">",
+            "nodeLabel": "div.usa-prose > div.usa-prose > article.media > a#CP___PAGEID=28762,charts.cfm,9",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 8
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body.path-node > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a tabindex=\"1\" href=\"#main-content\" class=\"visually-hidden focusable\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-200-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,SECTION,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 4,
+              "bottom": 18,
+              "left": 500,
+              "right": 616,
+              "width": 116,
+              "height": 14
+            },
+            "snippet": "<button tabindex=\"2\" class=\"usa-accordion__button usa-banner__button\" aria-expanded=\"false\" aria-controls=\"gov-banner-default\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-1-A",
+            "path": "1,HTML,1,BODY,1,DIV,2,HEADER,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.usa-navbar > div.region > div#logo > a",
+            "boundingRect": {
+              "top": 54,
+              "bottom": 131,
+              "left": 195,
+              "right": 675,
+              "width": 480,
+              "height": 77
+            },
+            "snippet": "<a href=\"/\" accesskey=\"1\" aria-label=\"U.S. Equal Employment Opportunity Commission Home\" tabindex=\"3\">",
+            "nodeLabel": "U.S. Equal Employment Opportunity Commission",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-208-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,2,HEADER,2,NAV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,BUTTON",
+            "selector": "div#block-languagemenublock > div.usa-language > div.usa-accordion > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 44,
+              "bottom": 63,
+              "left": 1040,
+              "right": 1167,
+              "width": 127,
+              "height": 19
+            },
+            "snippet": "<button class=\"usa-accordion__button usa-language__button\" aria-expanded=\"false\" aria-controls=\"gov-language\" tabindex=\"4\">",
+            "nodeLabel": "Languages ",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

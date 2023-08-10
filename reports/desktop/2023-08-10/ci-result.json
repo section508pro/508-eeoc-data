@@ -1,0 +1,1602 @@
+[
+  {
+    "path": "/",
+    "score": 0.92,
+    "performance": 0.88,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.83
+  },
+  {
+    "path": "/10-reasons-mediate",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2004-fair-act-inventory",
+    "score": 0.97,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/2005-fair-act-inventory",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/2006-fair-act-inventory",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2007-fair-act-inventory",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2008-fair-act-inventory",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2009-fair-act-inventory",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2009-par-acknowledgements",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2009-par-highlights-acknowledgments",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2009-par-highlights-appendixes",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/2009-par-highlights-financial-highlights",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2009-par-highlights-highlights-managements-discussion-and-analysis-performance-results",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2009-par-highlights-inspector-generals-statements",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2009-par-highlights-message-acting-chairman",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2009-par-managements-discussion-and-analysis",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2009-par-message-acting-chairman",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2010-fair-act-inventory",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2010-federal-employee-viewpoint-survey-summary",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.95,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2010-federal-employee-viewpoint-survey-summary-telework",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2010-hiring-reform-action-plan",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2010-par-appendices",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2010-par-financial-statements",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/2010-performance-and-accountability-report",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2010-performance-and-accountability-report-highlights",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2011-attorney-honor-program",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2011-federal-employee-viewpoint-survey-summary",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2011-par-appendices",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2011-par-financial-statements",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.92,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/2011-par-highlight-appendices",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2011-par-highlight-managements-discussion-and-analysis",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/2011-par-highlight-message-chair",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2011-par-highlights-inspector-generals-statement",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2011-par-inspector-generals-statement",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2011-par-managements-discussion-and-analysis",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/2011-par-message-chair",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2011-par-performance-results",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2011-performance-and-accountability-report",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2011-performance-and-accountability-report-highlights",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2012-federal-employee-viewpoint-survey-accessible",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2012-par-financial-statements",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2012-par-managements-discussion",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2012-par-performance-results",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2013-fepa-and-tero-contracts",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2013-par-charts-accessible-text-versions",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2014-par-acknowledgments",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2015-par-appendices",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/2021-annual-performance-report-apr",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/2022-annual-performance-report-apr",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/25-suggestions-white-house-summit-disability-employment",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/abcs-schedule",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/abm-industries-settlement-press-conference",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/accessibility",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/acknowledgements",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/acknowledgements-0",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/acknowledgments",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada-amendments-act-2008-original-text",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada-amendments-act-2008-town-hall-meetings",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada30-ada-mediated-resolutions-narratives",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada30-americans-disabilities-act-1990-2020",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/addendum-eeoc-fiscal-year-2016-performance-and-accountability-report-par",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/addendum-interim-adjustments-strategic-plan-fiscal-years-2007-2012",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/administrative-enforcement-and-litigation",
+    "score": 0.9,
+    "performance": 0.8,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.83
+  },
+  {
+    "path": "/advancing-diversity-law-enforcement",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/advancing-diversity-law-enforcement-0",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advancing-diversity-law-enforcement-1",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advancing-opportunity-review-systemic-program-us-equal-employment-opportunity-commission",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/advancing-opportunitya-review-systemic-program-us-equal-employment-opportunity-commission",
+    "score": 0.97,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/after-you-have-filed-charge",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/age-discrimination",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/age-harassment-american-workplace-and-what-eeoc-can-do-about-it-remarks-daniel-b-kohrman-aarp",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/agency-plan-action-tribal-consultations",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ai",
+    "score": 0.91,
+    "performance": 0.82,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/aldot-forms",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/alternative-suggested-employee-questionnaire",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/americans-disabilities-act-1990-original-text",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/americans-disabilities-act-development-law",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/amicus-curiae-program",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/andrea-r-lucas-commissioner",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/anna-park-remarks",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/anna-parks-remarks",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/annual-program-performance-report",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/annual-report-2007-human-capital-survey-results",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/annual-report-federal-workforce-fiscal-year-2019",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/anti-discrimination-psas-featuring-wynton-marsalis",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/appendices",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/appendices-0",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/appendices-1",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/appendices-2",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/appendixes",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/arrestandconviction",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/audio-file-test",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/background-checks",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/backlog-reduction-goals-fiscal-years-2008-2009-and-2010",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/best-practices-private-sector-employers",
+    "score": 0.98,
+    "performance": 0.95,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/betsey-stevenson-professor-public-policy-and-economics-university-michigan",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bio-cecelie-counts",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bio-christine-m-griffin",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bio-deborah-gillis",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bio-judith-winston",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bio-katherine-m-kimpel",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bio-lisa-maatz",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bio-nancy-j-leppink",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bio-patricia-shiu",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bio-sara-manzano-diaz",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bio-serena-fong",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bio-thomas-e-perez",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/brown-bag-revised-management-directive-110-md-110",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/brown-bag-session-putting-together-pilot-proposal",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/brown-bag-session-qa-procedural-dismissals",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/budget-and-performance",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/building-future-advancing-equal-employment-opportunity-construction-industry",
+    "score": 0.97,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/calendar-test",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/careers",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/careers/employee-benefits",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/careers/judicial-internship-program-denver-field-office",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/careers/judicial-internship-program-phoenix-district-office",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/careers/judicial-internship-program-us-equal-employment-opportunity-commission-new-york-district",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/careers/legal-unit-law-student-internships-phoenix-district-office",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/careers/student-externships-chicago-district-office",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/careers/student-internships-charlotte-district-office",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/careers/student-volunteer-service-program-svsp-miami-district-office",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/celebrating-40th-anniversary-title-vii",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/certification-commission-documents",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/chair-jenny-r-yangs-remarks-annual-meeting-presidents-interagency-task-force-monitor-and-combat",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/chairs-message",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/chairs-message-2015-excel-conference",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/chanchanit-martorell",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/charlotte-burrows-chair",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/chart-data-fiscal-year-2022-congressional-budget-justification",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/chart-data-fy-2018-performance-and-accountability-report",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/chart-data-fy-2020-congressional-budget-justification",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/chart-data-older-american-worker-age-discrimination-employment",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/chart-data-state-age-discrimination-and-older-workers-us-50-years-after-age-discrimination",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/chart-risk-factors-harassment-and-responsive-strategies",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/charts-fiscal-year-2019-budget-justification",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/charts-fiscal-year-2020-agency-financial-report",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/checking-status-your-charge",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/checklists-and-chart-risk-factors-employers",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/checklists-employers",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/checklists-employers-0",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/checklists-employers-1",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/checklists-employers-2",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/chief-foia-officer-report-agency-received-more-50-requests",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/cierre-del-gobierno",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/circle-k-settlement",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/civil-rights-act-1991-original-text",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/coletta-robertson",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/comentarios-de-olophius-perry",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commercial-activities-inventory-archives",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commercial-activities-inventory-fy-1999",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commercial-activities-inventory-fy-2000",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commercial-activities-inventory-fy-2001",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commercial-activities-inventory-fy-2002",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commercial-activities-inventory-year-2003",
+    "score": 0.98,
+    "performance": 0.92,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-appellate-and-amicus-briefs",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-appellate-and-amicus-briefs-0",
+    "score": 0.97,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/commission-decision-coverage-contraception",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-decisions",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-opinion-letter-individual-coverage-health-reimbursement-arrangements-ichra-under-adea",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-task-force-reports",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-april-2020",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-april-2021",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-april-2022",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-april-2023",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-august-2020",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-august-2021",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-august-2022",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-december-2019",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-december-2020",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-december-2021",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-december-2022",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-february-2020",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-february-2021",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-february-2022",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-february-2023",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-glossary",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-january-2020",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-january-2021",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-january-2022",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-january-2023",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-july-2020",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-july-2021",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-july-2022",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-june-2020",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-june-2021",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-june-2022",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-june-2023",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-march-2020",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-march-2021",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-march-2022",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-march-2023",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-may-2020",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-may-2021",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-may-2022",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-may-2023",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-november-2019",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/commission-votes-november-2020",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  }
+]
