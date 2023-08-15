@@ -1,0 +1,227 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-243-BUTTON",
+            "path": "1,HTML,1,BODY,11,DIV,2,DIV,0,DIV,1,DIV,3,DIV,0,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-dismissButton",
+            "boundingRect": {
+              "top": 541,
+              "bottom": 559,
+              "left": 556,
+              "right": 656,
+              "width": 100,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-dismiss\" id=\"prefix-dismissButton\">",
+            "nodeLabel": "No Thanks",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #428bca, background color: #f2f2f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-244-DIV",
+                  "path": "1,HTML,1,BODY,11,DIV,2,DIV",
+                  "selector": "body.path-frontpage > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 337,
+                    "bottom": 575,
+                    "left": 425,
+                    "right": 925,
+                    "width": 500,
+                    "height": 238
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\" style=\"height: 350px;\">",
+                  "nodeLabel": "Stay connected with the U.S. Equal Employment Opportunity Commission (EEOC) wit…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-245-BUTTON",
+            "path": "1,HTML,1,BODY,11,DIV,2,DIV,0,DIV,1,DIV,3,DIV,1,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-laterButton",
+            "boundingRect": {
+              "top": 541,
+              "bottom": 559,
+              "left": 659,
+              "right": 794,
+              "width": 135,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-later\" id=\"prefix-laterButton\">",
+            "nodeLabel": "Remind Me Later",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.24 (foreground color: #428bca, background color: #f2f2f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-244-DIV",
+                  "path": "1,HTML,1,BODY,11,DIV,2,DIV",
+                  "selector": "body.path-frontpage > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 337,
+                    "bottom": 575,
+                    "left": 425,
+                    "right": 925,
+                    "width": 500,
+                    "height": 238
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\" style=\"height: 350px;\">",
+                  "nodeLabel": "Stay connected with the U.S. Equal Employment Opportunity Commission (EEOC) wit…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body.path-frontpage > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a tabindex=\"1\" href=\"#main-content\" class=\"visually-hidden focusable\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-231-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,SECTION,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 4,
+              "bottom": 18,
+              "left": 500,
+              "right": 616,
+              "width": 116,
+              "height": 14
+            },
+            "snippet": "<button tabindex=\"2\" class=\"usa-accordion__button usa-banner__button\" aria-expanded=\"false\" aria-controls=\"gov-banner-default\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-1-A",
+            "path": "1,HTML,1,BODY,1,DIV,2,HEADER,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.usa-navbar > div.region > div#logo > a",
+            "boundingRect": {
+              "top": 54,
+              "bottom": 131,
+              "left": 195,
+              "right": 675,
+              "width": 480,
+              "height": 77
+            },
+            "snippet": "<a href=\"/\" accesskey=\"1\" aria-label=\"U.S. Equal Employment Opportunity Commission Home\" tabindex=\"3\">",
+            "nodeLabel": "U.S. Equal Employment Opportunity Commission",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-239-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,2,HEADER,2,NAV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,BUTTON",
+            "selector": "div#block-languagemenublock > div.usa-language > div.usa-accordion > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 45,
+              "bottom": 62,
+              "left": 1040,
+              "right": 1167,
+              "width": 127,
+              "height": 17
+            },
+            "snippet": "<button class=\"usa-accordion__button usa-language__button\" aria-expanded=\"false\" aria-controls=\"gov-language\" tabindex=\"4\">",
+            "nodeLabel": "Languages ",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
