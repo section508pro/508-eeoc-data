@@ -1,0 +1,1258 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-200-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,1,TR,0,TH,0,SPAN",
+            "selector": "tbody > tr > th > span",
+            "boundingRect": {
+              "top": 3291,
+              "bottom": 3338,
+              "left": 25,
+              "right": 114,
+              "width": 89,
+              "height": 47
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "STRATEGIC OBJECTIVE I",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.61 (foreground color: #ff0000, background color: #ced0e1, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-201-TH",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,1,TR,0,TH",
+                  "selector": "table#plan > tbody > tr > th",
+                  "boundingRect": {
+                    "top": 3285,
+                    "bottom": 3599,
+                    "left": 17,
+                    "right": 145,
+                    "width": 129,
+                    "height": 314
+                  },
+                  "snippet": "<th scope=\"col\" style=\"background-color: rgb(206, 208, 225); color: black;\" width=\"33%\">",
+                  "nodeLabel": "STRATEGIC OBJECTIVE I\nCombat employment discrimination through strategic law en…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-202-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,1,TR,1,TH,0,SPAN",
+            "selector": "tbody > tr > th > span",
+            "boundingRect": {
+              "top": 3291,
+              "bottom": 3338,
+              "left": 154,
+              "right": 248,
+              "width": 94,
+              "height": 47
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "STRATEGIC OBJECTIVE II",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.61 (foreground color: #ff0000, background color: #ced0e1, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-203-TH",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,1,TR,1,TH",
+                  "selector": "table#plan > tbody > tr > th",
+                  "boundingRect": {
+                    "top": 3285,
+                    "bottom": 3599,
+                    "left": 145,
+                    "right": 293,
+                    "width": 148,
+                    "height": 314
+                  },
+                  "snippet": "<th scope=\"col\" style=\"background-color: rgb(206, 208, 225); color: black;\" width=\"33%\">",
+                  "nodeLabel": "STRATEGIC OBJECTIVE II\nPrevent employment discrimination through education and …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-204-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,1,TR,2,TH,0,SPAN",
+            "selector": "tbody > tr > th > span",
+            "boundingRect": {
+              "top": 3291,
+              "bottom": 3338,
+              "left": 302,
+              "right": 401,
+              "width": 99,
+              "height": 47
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "STRATEGIC OBJECTIVE III",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.61 (foreground color: #ff0000, background color: #ced0e1, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-205-TH",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,1,TR,2,TH",
+                  "selector": "table#plan > tbody > tr > th",
+                  "boundingRect": {
+                    "top": 3285,
+                    "bottom": 3599,
+                    "left": 293,
+                    "right": 420,
+                    "width": 127,
+                    "height": 314
+                  },
+                  "snippet": "<th scope=\"col\" style=\"background-color: rgb(206, 208, 225); color: black;\" width=\"33%\">",
+                  "nodeLabel": "STRATEGIC OBJECTIVE III\nDeliver excellent and consistent service through a skil…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-206-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,2,TR,0,TD,0,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 3622,
+              "bottom": 3669,
+              "left": 25,
+              "right": 128,
+              "width": 103,
+              "height": 47
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Outcome Goal I.A",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-207-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,2,TR,0,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3599,
+                    "bottom": 6456,
+                    "left": 17,
+                    "right": 145,
+                    "width": 129,
+                    "height": 2856
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Outcome Goal I.A\nHave a broad impact in reducing employment discrimination at t…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-208-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,2,TR,0,TD,5,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 5715,
+              "bottom": 5762,
+              "left": 25,
+              "right": 128,
+              "width": 103,
+              "height": 47
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Outcome Goal I.B",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-207-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,2,TR,0,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3599,
+                    "bottom": 6456,
+                    "left": 17,
+                    "right": 145,
+                    "width": 129,
+                    "height": 2856
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Outcome Goal I.A\nHave a broad impact in reducing employment discrimination at t…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-209-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,2,TR,1,TD,0,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 3622,
+              "bottom": 3644,
+              "left": 154,
+              "right": 282,
+              "width": 128,
+              "height": 22
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Outcome Goal II.A",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-210-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,2,TR,1,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3599,
+                    "bottom": 6456,
+                    "left": 145,
+                    "right": 293,
+                    "width": 148,
+                    "height": 2856
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Outcome Goal II.A\nMembers of the public understand and know how to exercise the…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-211-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,2,TR,1,TD,1,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 3867,
+              "bottom": 3889,
+              "left": 154,
+              "right": 283,
+              "width": 129,
+              "height": 22
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Outcome Goal II.B",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-210-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,2,TR,1,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3599,
+                    "bottom": 6456,
+                    "left": 145,
+                    "right": 293,
+                    "width": 148,
+                    "height": 2856
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Outcome Goal II.A\nMembers of the public understand and know how to exercise the…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-212-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,2,TR,2,TD,0,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 3622,
+              "bottom": 3669,
+              "left": 302,
+              "right": 405,
+              "width": 103,
+              "height": 47
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Outcome Goal III.A",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-213-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,2,TR,2,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3599,
+                    "bottom": 6456,
+                    "left": 293,
+                    "right": 420,
+                    "width": 127,
+                    "height": 2856
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Outcome Goal III.A\nAll interactions with the public are timely, of high quality…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-214-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,3,TR,0,TH,0,SPAN",
+            "selector": "tbody > tr > th > span",
+            "boundingRect": {
+              "top": 6474,
+              "bottom": 6521,
+              "left": 34,
+              "right": 123,
+              "width": 89,
+              "height": 47
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "STRATEGIC OBJECTIVE I",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-215-TH",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,3,TR,0,TH",
+                  "selector": "table#plan > tbody > tr > th",
+                  "boundingRect": {
+                    "top": 6456,
+                    "bottom": 6592,
+                    "left": 17,
+                    "right": 145,
+                    "width": 129,
+                    "height": 137
+                  },
+                  "snippet": "<th scope=\"col\" style=\"padding: 1em;\">",
+                  "nodeLabel": "STRATEGIC OBJECTIVE I\nPerformance Measures"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-216-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,3,TR,1,TH,0,SPAN",
+            "selector": "tbody > tr > th > span",
+            "boundingRect": {
+              "top": 6474,
+              "bottom": 6521,
+              "left": 154,
+              "right": 248,
+              "width": 94,
+              "height": 47
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "STRATEGIC OBJECTIVE II",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-217-TH",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,3,TR,1,TH",
+                  "selector": "table#plan > tbody > tr > th",
+                  "boundingRect": {
+                    "top": 6456,
+                    "bottom": 6592,
+                    "left": 145,
+                    "right": 293,
+                    "width": 148,
+                    "height": 137
+                  },
+                  "snippet": "<th scope=\"col\">",
+                  "nodeLabel": "STRATEGIC OBJECTIVE II\nPerformance Measures"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-218-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,3,TR,2,TH,0,SPAN",
+            "selector": "tbody > tr > th > span",
+            "boundingRect": {
+              "top": 6474,
+              "bottom": 6521,
+              "left": 302,
+              "right": 401,
+              "width": 99,
+              "height": 47
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "STRATEGIC OBJECTIVE III",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-219-TH",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,3,TR,2,TH",
+                  "selector": "table#plan > tbody > tr > th",
+                  "boundingRect": {
+                    "top": 6456,
+                    "bottom": 6592,
+                    "left": 293,
+                    "right": 420,
+                    "width": 127,
+                    "height": 137
+                  },
+                  "snippet": "<th scope=\"col\">",
+                  "nodeLabel": "STRATEGIC OBJECTIVE III\nPerformance Measures"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-220-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD,0,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 6615,
+              "bottom": 6687,
+              "left": 25,
+              "right": 122,
+              "width": 97,
+              "height": 73
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 1 for Strategy I.A.1",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-221-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 17,
+                    "right": 145,
+                    "width": 129,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 1 for Strategy I.A.1\nBy FY 2016, the EEOC develops, issues,…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-222-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD,1,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 6987,
+              "bottom": 7111,
+              "left": 25,
+              "right": 122,
+              "width": 97,
+              "height": 124
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 2 for Strategy I.A.2 and Strategy III.A.2",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-221-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 17,
+                    "right": 145,
+                    "width": 129,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 1 for Strategy I.A.1\nBy FY 2016, the EEOC develops, issues,…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-223-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD,2,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 7411,
+              "bottom": 7535,
+              "left": 25,
+              "right": 122,
+              "width": 97,
+              "height": 124
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 3 for Strategy I.A.2 and Strategy III.A.2",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-221-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 17,
+                    "right": 145,
+                    "width": 129,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 1 for Strategy I.A.1\nBy FY 2016, the EEOC develops, issues,…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-224-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD,3,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 8013,
+              "bottom": 8086,
+              "left": 25,
+              "right": 122,
+              "width": 97,
+              "height": 73
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 4 for Strategy I.A.3",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-221-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 17,
+                    "right": 145,
+                    "width": 129,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 1 for Strategy I.A.1\nBy FY 2016, the EEOC develops, issues,…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-225-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD,4,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 8284,
+              "bottom": 8357,
+              "left": 25,
+              "right": 122,
+              "width": 97,
+              "height": 73
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 5 for Strategy I.A.4",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-221-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 17,
+                    "right": 145,
+                    "width": 129,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 1 for Strategy I.A.1\nBy FY 2016, the EEOC develops, issues,…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-226-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD,5,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 8835,
+              "bottom": 8933,
+              "left": 25,
+              "right": 133,
+              "width": 108,
+              "height": 98
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 6 for Strategies I.B.1 and I.B.2",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-221-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 17,
+                    "right": 145,
+                    "width": 129,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 1 for Strategy I.A.1\nBy FY 2016, the EEOC develops, issues,…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-227-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD,6,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 9208,
+              "bottom": 9306,
+              "left": 25,
+              "right": 133,
+              "width": 108,
+              "height": 98
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 7 for Strategies I.B.1 and I.B.2",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-221-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,0,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 17,
+                    "right": 145,
+                    "width": 129,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 1 for Strategy I.A.1\nBy FY 2016, the EEOC develops, issues,…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-228-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,1,TD,0,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 6615,
+              "bottom": 6687,
+              "left": 154,
+              "right": 254,
+              "width": 100,
+              "height": 73
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 8 for Strategy II.A.1",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-229-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,1,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 145,
+                    "right": 293,
+                    "width": 148,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 8 for Strategy II.A.1\nBy FY 2016, the EEOC is maintaining T…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-230-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,1,TD,1,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 6987,
+              "bottom": 7060,
+              "left": 154,
+              "right": 255,
+              "width": 101,
+              "height": 73
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 9 for Strategy II.B.1",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-229-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,1,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 145,
+                    "right": 293,
+                    "width": 148,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 8 for Strategy II.A.1\nBy FY 2016, the EEOC is maintaining T…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-231-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,1,TD,2,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 7360,
+              "bottom": 7459,
+              "left": 154,
+              "right": 266,
+              "width": 112,
+              "height": 98
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 10 for Strategies II.A.1 and II.B.1",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-229-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,1,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 145,
+                    "right": 293,
+                    "width": 148,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 8 for Strategy II.A.1\nBy FY 2016, the EEOC is maintaining T…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-232-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,1,TD,3,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 7581,
+              "bottom": 7679,
+              "left": 154,
+              "right": 266,
+              "width": 112,
+              "height": 98
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 11 for Strategies II.A.2 and II.B.2",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-229-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,1,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 145,
+                    "right": 293,
+                    "width": 148,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 8 for Strategy II.A.1\nBy FY 2016, the EEOC is maintaining T…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-233-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,2,TD,0,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 6615,
+              "bottom": 6687,
+              "left": 302,
+              "right": 407,
+              "width": 105,
+              "height": 73
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 12 for Strategy III.A.1",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-234-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,2,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 293,
+                    "right": 420,
+                    "width": 127,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 12 for Strategy III.A.1\nThe EEOC strengthens the skills and…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-235-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,2,TD,1,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 6860,
+              "bottom": 6984,
+              "left": 302,
+              "right": 399,
+              "width": 97,
+              "height": 124
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 2 for Strategy I.A.2 and Strategy III.A.2",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-234-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,2,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 293,
+                    "right": 420,
+                    "width": 127,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 12 for Strategy III.A.1\nThe EEOC strengthens the skills and…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-236-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,2,TD,2,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 7284,
+              "bottom": 7408,
+              "left": 302,
+              "right": 399,
+              "width": 97,
+              "height": 124
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 3 for Strategy I.A.2 and Strategy III.A.2",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-234-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,2,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 293,
+                    "right": 420,
+                    "width": 127,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 12 for Strategy III.A.1\nThe EEOC strengthens the skills and…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-237-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,2,TD,3,P,0,SPAN",
+            "selector": "tr > td > p > span",
+            "boundingRect": {
+              "top": 7911,
+              "bottom": 7984,
+              "left": 302,
+              "right": 407,
+              "width": 105,
+              "height": 73
+            },
+            "snippet": "<span style=\"color: red;\">",
+            "nodeLabel": "Performance Measure 13 for Strategy III.A.3",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-234-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,1,TBODY,4,TR,2,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6592,
+                    "bottom": 9508,
+                    "left": 293,
+                    "right": 420,
+                    "width": 127,
+                    "height": 2916
+                  },
+                  "snippet": "<td style=\"background-color: rgb(251, 236, 188);\">",
+                  "nodeLabel": "Performance Measure 12 for Strategy III.A.1\nThe EEOC strengthens the skills and…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-238-STRONG",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,2,TBODY,0,TR,0,TD,0,P,0,STRONG",
+            "selector": "tr > td > p > strong",
+            "boundingRect": {
+              "top": 9530,
+              "bottom": 9552,
+              "left": 89,
+              "right": 348,
+              "width": 259,
+              "height": 22
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "BUDGETARY RESOURCES MEASURE",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #ff0000, background color: #fbecbc, font size: 12.7pt (16.96px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-239-TD",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,0,DIV,0,SECTION,2,DIV,0,DIV,0,ARTICLE,0,ARTICLE,2,SECTION,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,10,DIV,0,TABLE,2,TBODY,0,TR,0,TD",
+                  "selector": "table#plan > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 9508,
+                    "bottom": 9669,
+                    "left": 17,
+                    "right": 420,
+                    "width": 404,
+                    "height": 162
+                  },
+                  "snippet": "<td colspan=\"3\" style=\"background-color: rgb(251, 236, 188); text-align: center;\">",
+                  "nodeLabel": "BUDGETARY RESOURCES MEASURE\n\nPerformance Measure 14\nThe EEOC's budgetary resour…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 27
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body.path-node > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a tabindex=\"1\" href=\"#main-content\" class=\"visually-hidden focusable\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-197-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,SECTION,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 49,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 49
+            },
+            "snippet": "<button tabindex=\"2\" class=\"usa-accordion__button usa-banner__button\" aria-expanded=\"false\" aria-controls=\"gov-banner-default\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-1-A",
+            "path": "1,HTML,1,BODY,1,DIV,2,HEADER,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.usa-navbar > div.region > div#logo > a",
+            "boundingRect": {
+              "top": 54,
+              "bottom": 91,
+              "left": 16,
+              "right": 284,
+              "width": 268,
+              "height": 37
+            },
+            "snippet": "<a href=\"/\" accesskey=\"1\" aria-label=\"U.S. Equal Employment Opportunity Commission Home\" tabindex=\"3\">",
+            "nodeLabel": "U.S. Equal Employment Opportunity Commission",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]
